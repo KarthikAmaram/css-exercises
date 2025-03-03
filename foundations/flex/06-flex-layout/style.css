@@ -5,7 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  padding: 12px
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -17,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -36,6 +40,7 @@ ul{
 
 .header {
   display: flex;
+  padding: 12px;
 }
 
 .right-links {
@@ -59,4 +64,10 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 12px;
+}
+
+.footer {
+  display: flex;
+  padding: 12px;
+  background-color: #eeeeee;
 }
