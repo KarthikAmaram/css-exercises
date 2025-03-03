@@ -5,7 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  padding: 8px
+  padding: 12px
 }
 
 img {
@@ -41,4 +41,15 @@ ul{
 .right-links {
   margin-right: 0;
   margin-left: auto;
+  gap: 12px;
+}
+
+.left-links {
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
 }
